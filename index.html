@@ -1,7 +1,61 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-blue-500 text-white text-center py-5">
+        <h1 class="text-3xl font-bold">Your Name</h1>
+        <p class="text-lg">Full Stack Developer</p>
+    </header>
+    <main class="container mx-auto my-10 p-5 bg-white rounded shadow-lg">
+        <section>
+            <h2 class="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4">About Me</h2>
+            <p>Brief introduction about yourself...</p>
+        </section>
+        <section>
+            <h2 class="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4">Experience</h2>
+            <div class="mb-4">
+                <h3 class="text-xl font-semibold">Job Title at Company</h3>
+                <p class="italic">Jan 2020 - Present</p>
+                <ul class="list-disc list-inside">
+                    <li>Responsibility 1</li>
+                    <li>Responsibility 2</li>
+                </ul>
+            </div>
+            <div class="mb-4">
+                <h3 class="text-xl font-semibold">Job Title at Company</h3>
+                <p class="italic">Jan 2018 - Dec 2019</p>
+                <ul class="list-disc list-inside">
+                    <li>Responsibility 1</li>
+                    <li>Responsibility 2</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2 class="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4">Education</h2>
+            <div class="mb-4">
+                <h3 class="text-xl font-semibold">Degree at University</h3>
+                <p class="italic">Year of Graduation</p>
+                <p>Brief description of your course or achievements...</p>
+            </div>
+        </section>
+        <section>
+            <h2 class="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4">Skills</h2>
+            <ul class="list-disc list-inside">
+                <li>Skill 1</li>
+                <li>Skill 2</li>
+                <li>Skill 3</li>
+            </ul>
+        </section>
+    </main>
+    <footer class="bg-blue-500 text-white text-center py-5 mt-10">
+        <p>Contact: your-email@example.com</p>
+    </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
