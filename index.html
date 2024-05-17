@@ -3,59 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
-    <link href="styles.css" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Harrison Young | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gray-100 text-gray-800">
-    <header class="bg-blue-500 text-white text-center py-5">
-        <h1 class="text-3xl font-bold">Your Name</h1>
-        <p class="text-lg">Full Stack Developer</p>
+<body>
+    <header>
+        <h1>Harrison Young</h1>
+        <p>(817)-734-5003 | <a href="mailto:harri.g.young@outlook.com">harri.g.young@outlook.com</a> | <a href="https://harri-y.github.io" target="_blank">harri-y.github.io</a> | <a href="https://linkedin.com/in/harrison-young-02aa6a309" target="_blank">LinkedIn</a></p>
     </header>
-    <main class="container mx-auto my-10 p-5 bg-white rounded shadow-lg">
-        <section>
-            <h2 class="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4">About Me</h2>
-            <p>Brief introduction about yourself...</p>
-        </section>
-        <section>
-            <h2 class="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4">Experience</h2>
-            <div class="mb-4">
-                <h3 class="text-xl font-semibold">Job Title at Company</h3>
-                <p class="italic">Jan 2020 - Present</p>
-                <ul class="list-disc list-inside">
-                    <li>Responsibility 1</li>
-                    <li>Responsibility 2</li>
-                </ul>
-            </div>
-            <div class="mb-4">
-                <h3 class="text-xl font-semibold">Job Title at Company</h3>
-                <p class="italic">Jan 2018 - Dec 2019</p>
-                <ul class="list-disc list-inside">
-                    <li>Responsibility 1</li>
-                    <li>Responsibility 2</li>
-                </ul>
-            </div>
-        </section>
-        <section>
-            <h2 class="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4">Education</h2>
-            <div class="mb-4">
-                <h3 class="text-xl font-semibold">Degree at University</h3>
-                <p class="italic">Year of Graduation</p>
-                <p>Brief description of your course or achievements...</p>
-            </div>
-        </section>
-        <section>
-            <h2 class="text-2xl font-bold border-b-2 border-gray-300 pb-2 mb-4">Skills</h2>
-            <ul class="list-disc list-inside">
-                <li>Skill 1</li>
-                <li>Skill 2</li>
-                <li>Skill 3</li>
-            </ul>
-        </section>
-    </main>
-    <footer class="bg-blue-500 text-white text-center py-5 mt-10">
-        <p>Contact: your-email@example.com</p>
-    </footer>
-    <script src="scripts.js"></script>
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <strong>University of Texas at Arlington</strong>, Arlington, TX<br>
+                Bachelor of Science in Computer Science, Cum Laude, GPA: >3.5<br>
+                Graduated: May 2024
+            </li>
+            <li>
+                <strong>Grace Preparatory Academy</strong>, Arlington, TX<br>
+                National Merit Scholar Finalist, Top 10% of Class, GPA: >4.0<br>
+                Graduated: May 2020
+            </li>
+        </ul>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Languages: Python, Java, C, C++, SQL, HTML, JavaScript</li>
+            <li>Operating Systems: Windows, Linux (Ubuntu, Arch)</li>
+            <li>Developer Tools: Git, GitHub, Azure DevOps, JUnit, VM, Unreal Engine 5</li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <strong>Senior Design Capstone Project - USACE’s Realistic Boating Simulator</strong><br>
+                Technologies: Unreal Engine 5, C++, Agile/Scrum, Azure DevOps<br>
+                Duration: Sep 2023 - Aug 2024<br>
+                Description: Developed a realistic river boating simulator with a team, utilizing Unreal Engine 5 and Agile methodologies.
+            </li>
+            <li>
+                <strong>JUnit Testing Project</strong><br>
+                Technologies: Java, JUnit<br>
+                Duration: Nov - Dec 2023<br>
+                Description: Conducted control-flow testing on a Java program, identifying and fixing faults through JUnit tests.
+            </li>
+            <li>
+                <strong>LibraryManager - SQL Database Project</strong><br>
+                Technologies: SQL/SQLite, MySQL Workbench, Python, CSV, Lucidchart<br>
+                Duration: Apr - May 2023<br>
+                Description: Designed and implemented a library management system with complex queries and a user-friendly Python GUI.
+            </li>
+            <li>
+                <strong>MavPoker - Multiplayer Web Poker Game</strong><br>
+                Technologies: Java, Javascript, HTML, CSS, Websockets, Multi-Threading, Git, Agile<br>
+                Duration: Feb - May 2022<br>
+                Description: Developed a real-time multiplayer poker game with a team, implementing event-driven and multi-threading concepts.
+            </li>
+        </ul>
+    </section>
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <ul>
+            <li>
+                <strong>University of Texas at Arlington - Esports Assistant and Social Media Manager</strong><br>
+                Duration: Mar 2023 - May 2024<br>
+                Description: Managed social media and assisted in daily operations for UTA’s esports program.
+            </li>
+        </ul>
+    </section>
+    <section id="in-progress">
+        <h2>In-Progress Projects</h2>
+        <ul>
+            <li>
+                <strong>Project Torch - Voxel-Based Adventure Game</strong><br>
+                Technologies: Unreal Engine 5, C++<br>
+                Duration: May 2024 - Present<br>
+                Description: Creating a multiplayer voxel-based game with procedural generation.
+            </li>
+        </ul>
+    </section>
 </body>
 </html>
